@@ -35,7 +35,7 @@ from telethon.tl.types import MessageEntityBlockquote, MessageEntityTextUrl
 
 API_ID = int(os.environ.get("API_ID", 36055068))
 API_HASH = os.environ.get("API_HASH", "e62c399663de4721efb786f7cfc64022")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8887459370:AAF0NaPjlqu-YbHi5btlZt7kAI_rMadb_QY")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8887459370:AAHIDBjEcHtrHvR3AnmOIk9fyiB-VpQtVPc")
 OWNER_ID = int(os.environ.get("OWNER_ID", 8882297263))
 LOGGER_ID = int(os.environ.get("LOGGER_ID", -1004380807747))
 MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://Elevenyts:Elevenyts@cluster0.vuyc1u2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
