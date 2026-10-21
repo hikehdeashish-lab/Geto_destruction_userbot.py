@@ -39,7 +39,7 @@ API_HASH = os.environ.get("API_HASH", "e62c399663de4721efb786f7cfc64022")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8884266307:AAGIdwHBq5Jhl43Q6TDMkNsGgEP6a1K7_T8")
 OWNER_ID = int(os.environ.get("OWNER_ID", 8882297263))
 LOGGER_ID = int(os.environ.get("LOGGER_ID", -1004380807747))
-MONGO_URI = os.environ.get("MONGO_URI", "")
+MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://itsashishx999_db_user:tPh9Zx4kEPVaHpKN@cluster0.e86lntf.mongodb.net/ashishdb?retryWrites=true&w=majority")
 
 FORCE_CHANNEL = "ll_NAGUMO_lll"
 OWNER_USERNAME = "ll_YOUR_NAGUMO_ll"
