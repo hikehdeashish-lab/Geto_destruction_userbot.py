@@ -621,12 +621,12 @@ def start_buttons():
     return [
         [safe_button("inline", "「 ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅꜱ 」", b"menu_help_cats", style="primary")],
         [
-            safe_button("url", "「 ᴡᴇʙꜱɪᴛᴇ 」", "http://ashish-intro-web.netlify.app/", style="primary"),
-            safe_button("url", "「 ꜱᴜᴩᴩᴏʀᴛ 」", "https://t.me/+gCQ4kgEvubliYzA1", style="primary")
+            safe_button("url", "「 ᴡᴇʙꜱɪᴛᴇ 」", "https://bhaskar795-alt.github.io/INFO//", style="primary"),
+            safe_button("url", "「 ꜱᴜᴩᴩᴏʀᴛ 」", "https://t.me/ABOUT_GETO", style="primary")
         ],
         [
             safe_button("inline", "「 ʜᴇʟᴩ 」", b"open_help_guide"),
-            safe_button("url", "「 ᴍʏ ʜᴏᴍᴇ 」", "https://t.me/+gCQ4kgEvubliYzA1")
+            safe_button("url", "「 ᴍʏ ʜᴏᴍᴇ 」", "https://t.me/+SZ7oqVbdHjkxNjZl")
         ],
         [safe_button("inline", "「 ʟᴏɢɪɴ ᴜꜱᴇʀʙᴏᴛ 」", b"start_login")],
         [safe_button("url", "「 ᴍʏ ᴍᴀꜱᴛᴇʀ 」", f"https://t.me/{OWNER_USERNAME}", style="danger")]
