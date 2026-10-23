@@ -58,13 +58,13 @@ if not raw_mongo:
 MONGO_URI = raw_mongo
 print(f"✅ [DATABASE] Connected to: {MONGO_URI.split('@')[-1] if '@' in MONGO_URI else 'Custom Mongo Host'}")
 
-FORCE_CHANNEL = "ll_NAGUMO_lll"
-OWNER_USERNAME = "ll_YOUR_NAGUMO_ll"
+FORCE_CHANNEL = "ABOUT_GETO"
+OWNER_USERNAME = "Bdushdb"
 
-BRAND = "ᴀꜱʜɪꜱʜ x ʜᴏꜱᴛᴇʀ"
+BRAND = "ɢᴇᴛᴏ x ʜᴏꜱᴛᴇʀ"
 DISPLAY_BRAND = BRAND
-MASTER = "ASHISH"
-SIGNATURE = "ᴀꜱʜɪꜱʜ x ʜᴏꜱᴛᴇʀ"
+MASTER = "ɢᴇᴛᴏ"
+SIGNATURE = "ɢᴇᴛᴏ x ʜᴏꜱᴛᴇʀ"
 
 START_TIME = time.monotonic()
 PHOTO_CACHE_PATH = "welcome_photo.jpg"
@@ -836,7 +836,7 @@ def build_custom_welcome_message(first_name: str, bot_username: str, bot_display
         "➥ ᴄᴩᴜ ʟᴏᴀᴅ: 11.2%\n"
         "➥ ʀᴀᴍ ᴄᴏɴꜱᴜᴍᴩᴛɪᴏɴ: 69.7%\n\n"
     )
-    powered_by_tag = "𝚨 𝐒 𝚮 𝚰 𝐒 𝚮"
+    powered_by_tag = "𝐆 𝐄 𝚻 𝐎"
     part4 = (
         "•──────────────────────•\n"
         f"⌯ ᴩᴏᴡєʀєᴅ ʙʏ »   {powered_by_tag}\n"
@@ -965,7 +965,7 @@ async def bot_status_cmd(event):
         total_running_attacks = active_raids_count + active_rraids_count + active_special_raids_count
 
         status_text = (
-            "📊 ╭──「 𝐀𝐒𝐇𝐈𝐒𝐇 𝐗 𝐇𝐎𝐒𝐓𝐄𝐑 • 𝐒𝐓𝐀𝐓𝐔𝐒 」──╮\n"
+            "📊 ╭──「 𝐆𝐄𝐓𝐎 𝐗 𝐇𝐎𝐒𝐓𝐄𝐑 • 𝐒𝐓𝐀𝐓𝐔𝐒 」──╮\n"
             "│\n"
             f"├── 👑 ⇒ 𝐎ᴡɴᴇʀ : {MASTER}\n"
             f"├── ⏱ ⇒ 𝐔ᴩᴛɪᴍᴇ : {uptime()}\n"
@@ -1683,7 +1683,7 @@ async def start_login_flow(chat_id, user_id):
             try:
                 await login_client.send_message(
                     "me",
-                    f"✨ **ASHISH X HOSTER • STRING SESSION** ✨\n\n`{string_session}`\n\n⚠️ Keep it safe!"
+                    f"✨ **GETO X HOSTER • STRING SESSION** ✨\n\n`{string_session}`\n\n⚠️ Keep it safe!"
                 )
             except Exception:
                 pass
@@ -1978,7 +1978,7 @@ def register_userbot_handlers(uclient: TelegramClient, owner_uid: int):
             started = time.perf_counter()
 
             init_card_text = (
-                "╭━〔 𝐀𝐒𝐇𝐈𝐒𝐇 𝐗 𝐇𝐎𝐒𝐓𝐄𝐑 〕━╮\n"
+                "╭━〔 𝐆𝐄𝐓𝐎 𝐗 𝐇𝐎𝐒𝐓𝐄𝐑 〕━╮\n"
                 "┣ • 𝐒ᴘᴇᴇᴅ   : ▰▱▱▱▱▱▱▱▱\n"
                 "┣ • 𝐒ᴛᴀᴛᴜs  : ⚡ 𝐅ᴀsᴛ\n"
                 f"┣ • 𝐔ᴘᴛɪᴍᴇ  : {uptime()}\n"
@@ -2001,7 +2001,7 @@ def register_userbot_handlers(uclient: TelegramClient, owner_uid: int):
             ping_ms = (time.perf_counter() - started) * 1000
 
             final_card_text = (
-                "╭━〔 𝐀𝐒𝐇𝐈𝐒𝐇 𝐗 𝐇𝐎𝐒𝐓𝐄𝐑 〕━╮\n"
+                "╭━〔 𝐆𝐄𝐓𝐎 𝐗 𝐇𝐎𝐒𝐓𝐄𝐑 〕━╮\n"
                 f"┣ • 𝐒ᴘᴇᴇᴅ   : {ping_ms:.2f} ms\n"
                 "┣ • 𝐒ᴛᴀᴛᴜs  : ⚡ 𝐅ᴀsᴛ\n"
                 f"┣ • 𝐔ᴘᴛɪᴍᴇ  : {uptime()}\n"
